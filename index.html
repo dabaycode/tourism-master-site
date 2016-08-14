@@ -3,243 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <title>Mountains</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="main-header">
-    <div class="logo">
-        <img src="#" alt="main-logo">
-    </div>
-    <nav class="main-navigation">
-        <ul>
-            <li><a href="#">Our story</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Journal</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Journal</a></li>
-        </ul>
-    </nav>
-    <div class="contact">
-        <a class="btn btn-blue" href="#">Call us</a>
+<header class="row-item main-header ">
+    <div class="row-item-container clearfix">
+        <div class="logo">
+            <a href="#">
+                <img src="img/Header/logo-main.png" width="117px" height="27px" alt="main-logo">
+            </a>
+        </div>
+        <nav class="main-navigation">
+            <a class="navigation-item" href="#">Our story</a>
+            <a class="navigation-item" href="#">Services</a>
+            <a class="navigation-item" href="#">Work</a>
+            <a class="navigation-item" href="#">Journal</a>
+            <a class="navigation-item" href="#">Contact</a>
+            <a class="navigation-item" href="#">Work</a>
+            <a class="navigation-item" href="#">Journal</a>
+        </nav>
+        <div class="contact">
+            <a class="btn btn-call" href="#">Call us</a>
+        </div>
     </div>
 </header>
 <!-- need more semantic(think about sections) -->
-<main>
-    <div class="column-item">
-        <h1>Travel with us <span>to the Mointains</span></h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
-        <a class="btn" href="#">Order now</a>
-    </div>
-    <div class="column-item">
-        <h2>About us</h2>
-        <p>
-            Aliquam sed posuere urna, et gravida nisl. Praesent
-            interdum nisl libero, pretium egestas purus eleifend
-            vitae. Mauris suscipit vel lectus at luctus.
-        </p>
-        <a class="btn" href="#">Read more</a>
-    </div>
-    <div class="column-item">
-        <h2>Our Journal</h2>
-        <!-- think about using ol -->
-        <div class="features">
-            <div class="features-img"></div>
-            <div class="features-description">
-                <b class="features-word">Love</b>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h3>
-                <p>
-                    You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves?
-                    Tell everyone about your experience and skills.
-                </p>
-
-            </div>
-            <div class="features-img"></div>
-            <div class="features-description">
-                <b class="features-word">Tree</b>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h3>
-                <p>
-                    The way to a successful brand is hard, but always very interesting.
-                    Share the full story of your project – from the very first day until now.
-                </p>
-
-            </div>
-            <div class="features-img"></div>
-            <div class="features-description">
-                <b class="features-word">Water</b>
-                <h3>LITTLE PIECES OF OUR PROUDNESS</h3>
-                <p>
-                    What do you do better than your competitors? What are you proud of?
-                    What details and advantages of your product you want people to know about?
-                </p>
+<main class="container">
+    <div class="row-item banner-main">
+        <div class="row-item-container banner-main-container">
+            <div class="row-item-content banner-main-content">
+                <div class="top-line">
+                    <div class="top-line-left"></div>
+                    <div class="top-line-right"></div>
+                </div>
+                <h1>Travel with us <span class="title-text">to the Mointains</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid</p>
+                <a class="btn" href="#">Order now</a>
             </div>
         </div>
     </div>
-    <div class="column-item">
-        <h2>Do you wanna go?</h2>
-        <p>
-            Aliquam sed posuere urna, et gravida nisl. Praesent
-            interdum nisl libero, pretium egestas purus eleifend vitae.
-            Mauris suscipit vel lectus at luctus.
-        </p>
-        <form action="#" method="post">
-            <label for="first_name">Your Name</label>
-            <input id="first_name" type="text">
-            <label for="phone">Your phone</label>
-            <input id="phone" type="text">
-            <button type="submit">Order now</button>
-            <span class="notification">* Your data will not be transferred</span>
-        </form>
+    <div class="row-item">
+        <div class="row-item-container">
+            <h2>About us</h2>
+            <p>
+                Aliquam sed posuere urna, et gravida nisl. Praesent
+                interdum nisl libero, pretium egestas purus eleifend
+                vitae. Mauris suscipit vel lectus at luctus.
+            </p>
+            <a class="btn" href="#">Read more</a>
+        </div>
     </div>
-    <div class="column-item">
-        <h2>How we work</h2>
-        <ul class="step-list">
-            <li>
-                <div class="step-list-item">
-                    <img src="#" alt="img">
+    <div class="row-item">
+        <div class="row-item-container">
+            <h2>Our Journal</h2>
+            <!-- think about using ol -->
+            <div class="features">
+                <div class="features-img"></div>
+                <div class="features-description">
+                    <b class="features-word">Love</b>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt
+                        You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves?
+                        Tell everyone about your experience and skills.
                     </p>
                 </div>
-            </li>
-            <li>
-                <div class="step-list-item">
-                    <img src="#" alt="img">
+                <div class="features-img"></div>
+                <div class="features-description">
+                    <b class="features-word">Tree</b>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt
+                        The way to a successful brand is hard, but always very interesting.
+                        Share the full story of your project – from the very first day until now.
+                    </p>
+            
+                </div>
+                <div class="features-img"></div>
+                <div class="features-description">
+                    <b class="features-word">Water</b>
+                    <h3>LITTLE PIECES OF OUR PROUDNESS</h3>
+                    <p>
+                        What do you do better than your competitors? What are you proud of?
+                        What details and advantages of your product you want people to know about?
                     </p>
                 </div>
-            </li>
-            <li>
-                <div class="step-list-item">
-                    <img src="#" alt="img">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt
+            </div>
+        </div>
+    </div>
+    <div class="row-item">
+        <div class="row-item-container">
+            <h2>Do you wanna go?</h2>
+            <p>
+                Aliquam sed posuere urna, et gravida nisl. Praesent
+                interdum nisl libero, pretium egestas purus eleifend vitae.
+                Mauris suscipit vel lectus at luctus.
+            </p>
+            <form action="#" method="post">
+                <label for="first_name">Your Name</label>
+                <input id="first_name" type="text">
+                <label for="phone">Your phone</label>
+                <input id="phone" type="text">
+                <button type="submit">Order now</button>
+                <span class="notification">* Your data will not be transferred</span>
+            </form>
+        </div>
+    </div>
+    <div class="row-item">
+        <div class="row-item-container">
+            <h2>How we work</h2>
+            <ul class="step-list">
+                <li>
+                    <div class="step-list-item">
+                        <img src="#" alt="img">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-list-item">
+                        <img src="#" alt="img">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-list-item">
+                        <img src="#" alt="img">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="step-list-item">
+                        <img src="#" alt="img">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row-item">
+        <div class="row-item-container">
+            <h2>Travel with us</h2>
+            <div class="catalog">
+                <div class="catalog-item">
+                    <div class="rating-stars"></div>
+                    <h3>Carpathian</h3>
+                    <p>Lorem ipsum dolor si amet, consectetur</p>
+                    <div class="catalog-item-price"></div>
+                </div>
+                <div class="catalog-item">
+                    <div class="rating-stars"></div>
+                    <h3>Alps</h3>
+                    <p>Lorem ipsum dolor si amet, consectetur</p>
+                    <div class="catalog-item-price"></div>
+                </div>
+                <div class="catalog-item">
+                    <div class="rating-stars"></div>
+                    <h3>Pyrenees</h3>
+                    <p>Lorem ipsum dolor si amet, consectetur</p>
+                    <div class="catalog-item-price"></div>
+                </div>
+                <div class="catalog-item">
+                    <div class="rating-stars"></div>
+                    <h3>Rocky</h3>
+                    <p>Lorem ipsum dolor si amet, consectetur</p>
+                    <div class="catalog-item-price"></div>
+                </div>
+                <div class="catalog-item">
+                    <div class="rating-stars"></div>
+                    <h3>Kavkaz</h3>
+                    <p>Lorem ipsum dolor si amet, consectetur</p>
+                    <div class="catalog-item-price"></div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="row-item">
+        <div class="row-item-container">
+            <h2>Gallery</h2>
+            <div class="img-gallery">
+                <div class="img-gallery-column">
+                    <div class="img-gallery-item"><img src="" alt=""></div>
+                </div>
+                <div class="img-gallery-column">
+                    <div class="img-gallery-item"><img src="" alt=""></div>
+                </div>
+                <div class="img-gallery-column">
+                    <div class="img-gallery-item"><img src="" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-item line-brand">
+        <div class="row-item-content">
+            <div class="line-brand-item"><img src="" alt=""></div>
+            <div class="line-brand-item"><img src="" alt=""></div>
+            <div class="line-brand-item"><img src="" alt=""></div>
+            <div class="line-brand-item"><img src="" alt=""></div>
+            <div class="line-brand-item"><img src="" alt=""></div>
+            <div class="line-brand-item"><img src="" alt=""></div>
+        </div>
+    </div>
+    <div class="row-item comments">
+        <div class="row-item-container">
+            <h2>Our Clients Say</h2>
+            <div class="layout-column">
+                <div class="comment">
+                    <p class="comment-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                     </p>
+                    <div class="comment-footer">
+                        <img src="" alt="" class="comment-image">
+                        <span class="comment-author">Pavliv Yaroslay</span>
+                        <span class="comment-author-speciality">Web designer</span>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <div class="step-list-item">
-                    <img src="#" alt="img">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt
+            </div>
+            <div class="layout-column">
+                <div class="comment">
+                    <p class="comment-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
                     </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="column-item">
-        <h2>Travel with us</h2>
-        <div class="catalog">
-            <div class="catalog-item">
-                <div class="rating-stars"></div>
-                <h3>Carpathian</h3>
-                <p>Lorem ipsum dolor si amet, consectetur</p>
-                <div class="catalog-item-price"></div>
-            </div>
-            <div class="catalog-item">
-                <div class="rating-stars"></div>
-                <h3>Alps</h3>
-                <p>Lorem ipsum dolor si amet, consectetur</p>
-                <div class="catalog-item-price"></div>
-            </div>
-            <div class="catalog-item">
-                <div class="rating-stars"></div>
-                <h3>Pyrenees</h3>
-                <p>Lorem ipsum dolor si amet, consectetur</p>
-                <div class="catalog-item-price"></div>
-            </div>
-            <div class="catalog-item">
-                <div class="rating-stars"></div>
-                <h3>Rocky</h3>
-                <p>Lorem ipsum dolor si amet, consectetur</p>
-                <div class="catalog-item-price"></div>
-            </div>
-            <div class="catalog-item">
-                <div class="rating-stars"></div>
-                <h3>Kavkaz</h3>
-                <p>Lorem ipsum dolor si amet, consectetur</p>
-                <div class="catalog-item-price"></div>
-            </div>
-
-        </div>
-    </div>
-    <div class="column-item">
-        <h2>Gallery</h2>
-        <div class="img-gallery">
-            <div class="img-gallery-column">
-                <div class="img-gallery-item"><img src="" alt=""></div>
-            </div>
-            <div class="img-gallery-column">
-                <div class="img-gallery-item"><img src="" alt=""></div>
-            </div>
-            <div class="img-gallery-column">
-                <div class="img-gallery-item"><img src="" alt=""></div>
-            </div>
-        </div>
-    </div>
-    <div class="line-brand">
-        <div class="line-brand-item"><img src="" alt=""></div>
-        <div class="line-brand-item"><img src="" alt=""></div>
-        <div class="line-brand-item"><img src="" alt=""></div>
-        <div class="line-brand-item"><img src="" alt=""></div>
-        <div class="line-brand-item"><img src="" alt=""></div>
-        <div class="line-brand-item"><img src="" alt=""></div>
-    </div>
-    <div class="column-item comments">
-        <h2>Our Clients Say</h2>
-        <div class="layout-column">
-            <div class="comment">
-                <p class="comment-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                </p>
-                <div class="comment-footer">
-                    <img src="" alt="" class="comment-image">
-                    <span class="comment-author">Pavliv Yaroslay</span>
-                    <span class="comment-author-speciality">Web designer</span>
-                </div>
-            </div>
-        </div>
-        <div class="layout-column">
-            <div class="comment">
-                <p class="comment-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                </p>
-                <div class="comment-footer">
-                    <img src="" alt="" class="comment-image">
-                    <span class="comment-author">John Scott</span>
-                    <span class="comment-author-speciality">The Fringe</span>
+                    <div class="comment-footer">
+                        <img src="" alt="" class="comment-image">
+                        <span class="comment-author">John Scott</span>
+                        <span class="comment-author-speciality">The Fringe</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="column-item">
-        <form class="contact-form" action="#">
-            <h2>Contacts</h2>
-            <p>Sign up for our newsletter to receive updates</p>
-            <input type="text" name="user-name" placeholder="Name">
-            <input type="text" name="user-phone" placeholder="Phone">
-            <input type="text" name="user-email" placeholder="E-mail">
-            <button type="submit">Send</button>
-        </form>
+    <div class="row-item">
+        <div class="row-item-container">
+            <form class="contact-form" action="#">
+                <h2>Contacts</h2>
+                <p>Sign up for our newsletter to receive updates</p>
+                <input type="text" name="user-name" placeholder="Name">
+                <input type="text" name="user-phone" placeholder="Phone">
+                <input type="text" name="user-email" placeholder="E-mail">
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </div>
 </main>
 <footer class="main-footer">
-    <div class="footer-layout-column">
-        All rights reserved 2015
-    </div>
-    <div class="footer-layout-column footer-social">
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-    </div>
-    <div class="footer-layout-column">
-        <a href="tel:+1234243123">1 234 243 123</a>
+    <div class="row-item">
+        <div class="row-item-container">
+            <div class="footer-layout-column">
+                All rights reserved 2015
+            </div>
+            <div class="footer-layout-column footer-social">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div class="footer-layout-column">
+                <a href="tel:+1234243123">1 234 243 123</a>
+            </div>
+        </div>
     </div>
 </footer>
 </body>
