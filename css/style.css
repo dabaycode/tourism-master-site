@@ -98,7 +98,7 @@ main,
 
 .banner-main {
     min-height: 648px; /* temp */
-	background: url("../img/Header/background-image.jpg");
+	background: url("../img/Header/background-image.jpg") no-repeat;
 }
 
 .banner-main-container {
@@ -146,13 +146,17 @@ main,
 .top-line-left,
 .top-line-right {
 	display: inline-block;
-	width: 50%;
 	height: 2px;
 	background-color: white;
 }
 
+.top-line-left {
+	width: 65.1%;
+    margin-right: 17.8%;
+}
+
 .top-line-right {
-	
+    width: 17.1%;
 }
 
 .banner-main-content .title-text {
