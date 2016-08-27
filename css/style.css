@@ -242,12 +242,6 @@ main,
 	margin-top: 62px;
 	box-shadow: 0 0 21px rgba(6,6,6,0.13);
 }
-.features::after
-{
-    content: "";
-    display: table;
-    clear: both;
-}
 .features-item
 {
 	width: 380px;
