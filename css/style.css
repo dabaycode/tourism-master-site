@@ -286,6 +286,20 @@ main,
     top: 39.47%;
 }
 
+/* only for fun scetion */
+@keyframes test {
+  from {width: 81px; height: 81px;}
+  to {width: 90px; height: 90px;}
+}
+
+.features-img1:hover .features-icon {
+  animation-name: test;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/* fun section end */
+
 .features-word {
     font-size: 11px;
     line-height: 12.54px;
