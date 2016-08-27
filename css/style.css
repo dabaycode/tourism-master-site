@@ -187,6 +187,7 @@ main,
 .line-brand-item img {
   vertical-align: bottom;
 }
+
 /*about-us*/
 .about-us {
   min-height: 667px;
@@ -199,6 +200,7 @@ main,
   padding-top: 204px;
   position: relative;
 }
+
 .about-us-content img {
     margin-bottom: 32px;
 }
@@ -337,18 +339,64 @@ main,
 }
 
 /* contacts form */
+.contact-row {
+  background-image: url("../img/Footer/footer-bg.png")
+}
+
 .contact-form {
   width: 43.9%;
   margin: 0 auto;
+  margin-bottom: 160px;
+  overflow: auto;
   background: url("../img/Footer/contacts-bg.png") no-repeat;
-
 }
 
-.contact-form h2 {
-  font-size: 36px;
-  color: #36aeea;
+.contact-form-title,
+.contact-form p {
   text-align: center;
 }
+
+.contact-form p {
+  margin: 0 0 34px 0;
+}
+
+.contact-form-title {
+    margin-top: 40px;
+    color: #36aeea;
+    font-size: 2.25em;
+}
+
+.contact-form input,
+.contact-form button {
+  box-sizing: content-box; /* button is border-box by default */
+  display: block;
+  width: 76%;
+  padding: 0 2%;
+  margin: 20px auto;
+  border-radius: 6px;
+  border: 0;
+}
+
+.contact-form input {
+  height: 60px;
+  font-size: 1.125em;
+}
+
+.contact-form button {
+  height: 70px;
+  margin-bottom: 50px;
+  background-color: #36aeea;
+  color: white;
+  font-size: 1em; /* browser ovveride style in body. Don't know why */
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+    box-shadow: 0 0 13px 0 black;
+}
+
 
 /* footer */
 .main-footer {
