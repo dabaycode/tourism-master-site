@@ -23,10 +23,13 @@ main,
 .row-item {
     overflow: hidden;
 }
+
+/*
 .row-item-content
 {
 	padding: 0 15px;
 }
+*/
 
 .row-item-container {
     margin: 0 auto;
@@ -49,7 +52,6 @@ main,
 .main-header {
     background-color: rgba(255,255,255,0.2);
 }
-
 
 .logo,
 .contact,
@@ -78,7 +80,6 @@ main,
     width: 60%;
     margin: 18px 0;
     padding: 12px 1%;
-
     font-weight: bold;
 }
 
@@ -198,8 +199,7 @@ main,
   padding-top: 204px;
   position: relative;
 }
-.about-us-content img
-{
+.about-us-content img {
     margin-bottom: 32px;
 }
 
@@ -207,6 +207,7 @@ main,
 	color: #949494;
 	line-height: 26px;
 }
+
 .about-us-item1 {
  position: absolute;
  width: 806px;
@@ -222,6 +223,7 @@ main,
  top: 279px;
  left: 459px;
 }
+
 .btn-read {
   width: 36.11%;
   border-radius: 5px;
@@ -239,80 +241,99 @@ main,
   background-color:  #f6f4f4;
 	color: #36aeea;
 }
+
 /*our-journal*/
-.our-journal
-{
+.our-journal {
     min-height: 1070px;
 }
-.our-journal-container
-{
+
+.our-journal-container {
     text-align: center;
     padding-top: 61px;
 }
-.our-journal-title
-{
+.our-journal-title {
 	font-size: 30px;
 	line-height: 42px;
 	text-transform: uppercase;
 	margin-top: 20px;
 }
-.features
-{
+
+.features {
 	margin-top: 62px;
 	box-shadow: 0 0 21px rgba(6,6,6,0.13);
 }
-.features-item
-{
+
+.features-item {
 	width: 380px;
 	height: 380px;
 	float: left;
 }
-.features-img1
-{
+
+.features-img1 {
 	background-image: url("../img/Journal/item1.jpg");
 }
-.features-img2
-{
+
+.features-img2 {
 	background-image: url("../img/Journal/item2.jpg");
 }
-.features-img3
-{
+
+.features-img3 {
 	background-image: url("../img/Journal/item3.jpg");
 }
-.features-icon
-{
+
+.features-icon {
     position: relative;
     top: 39.47%;
 }
-.features-word
-{
+
+.features-word {
     font-size: 11px;
     line-height: 12.54px;
     color: #16b5ef;
     text-transform: uppercase;
     letter-spacing: .15em;
 }
-.features-description
-{
+
+.features-description {
     padding-top: 36px;
     height: 343px;
     width: 322px;
     padding-right: 29px;
     padding-left: 29px;
 }
-.features-description h3
-{
+
+.features-description h3 {
     text-transform: uppercase;
     font-size: 16.15px;
     line-height: 24.23px;
     letter-spacing: .15em;
     margin-top: 43px;
 }
+
+.about-us-content p {
+	color: #949494;
+	line-height: 26px;
+}
+
 .features-description p
 {
     font-size: 14px;
     line-height: 22.8px;
     color: #808080;
+}
+
+/* contacts form */
+.contact-form {
+  width: 43.9%;
+  margin: 0 auto;
+  background: url("../img/Footer/contacts-bg.png") no-repeat;
+
+}
+
+.contact-form h2 {
+  font-size: 36px;
+  color: #36aeea;
+  text-align: center;
 }
 
 /* footer */
@@ -354,46 +375,47 @@ main,
 .footer-phone a{
     color: #7ec8da;
 }
+
 /*offer*/
-.offer
-{
+.offer {
 	min-height: 650px;
 	background: #f6f4f4 url("../img/Offer/trees.jpg") no-repeat;
 }
-.offer-item-content
-{
-    padding-top: 140px;	
-    padding-right: 290px;
-}
-.offer-title
-{
-    margin-top: 19.5px;
 
+.offer-item-content {
+  padding-top: 140px;
+  padding-right: 290px;
+}
+.offer-title {
+  margin-top: 19.5px;
 	font-weight: bold;
 	font-size: 20px;
-	line-height: 43px; 
+	line-height: 43px;
 }
-.offer-text
-{
-    margin-top: 10px;
 
+.offer-text {
+  margin-top: 10px;
 	font-size: 16px;
 	line-height: 26px;
 	color: #949494;
 }
-.offer-form
-{
+
+.offer-form {
 	background: #ffffff;
-	padding: 17.5px 0 17.5px 21px; 
+	padding: 17.5px 0 17.5px 21px;
 }
-.offer-form-label
-{
+
+.offer-form-label {
 	font-size: 16px;
 	color: #949494;
 	letter-spacing: .02em;
 	line-height: 1.2;
 }
-.offer-form-input
-{
+
+.offer-form-input {
 	border: none;
 }
+
+.offer-form-input:focus {
+  outline: none;
+};
