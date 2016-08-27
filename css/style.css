@@ -23,7 +23,10 @@ main,
 .row-item {
     overflow: hidden;
 }
-
+.row-item-content
+{
+	padding: 0 15px;
+}
 
 .row-item-container {
     margin: 0 auto;
@@ -183,7 +186,7 @@ main,
 .line-brand-item img {
   vertical-align: bottom;
 }
-
+/*about-us*/
 .about-us {
   min-height: 667px;
   background: #f6f4f4 url('../img/Blog/map1.png') no-repeat;
@@ -191,12 +194,34 @@ main,
 }
 
 .about-us-content {
-  float: left;
   width: 33.1%;
   padding-top: 204px;
-  padding-left: 19px;
+  position: relative;
+}
+.about-us-content img
+{
+    margin-bottom: 32px;
 }
 
+.about-us-content p {
+	color: #949494;
+	line-height: 26px;
+}
+.about-us-item1 {
+ position: absolute;
+ width: 806px;
+ height: 570px;
+ top: -36px;
+ left: 563px;
+}
+
+.about-us-item2 {
+ position: absolute;
+ width: 350px;
+ height: 350px;
+ top: 279px;
+ left: 459px;
+}
 .btn-read {
   width: 36.11%;
   border-radius: 5px;
@@ -214,15 +239,7 @@ main,
   background-color:  #f6f4f4;
 	color: #36aeea;
 }
-.about-us-content img
-{
-    margin-bottom: 32px;
-}
-
-.about-us-content p {
-	color: #949494;
-	line-height: 26px;
-}
+/*our-journal*/
 .our-journal
 {
     min-height: 1070px;
@@ -298,23 +315,6 @@ main,
     color: #808080;
 }
 
-.about-us-item1 {
- position: absolute;
- width: 806px;
- height: 570px;
- top: 662px;
- left: 938px;
-}
-
-.about-us-item2 {
- position: absolute;
- width: 350px;
- height: 350px;
- top: 977px;
- left: 851px;
-}
-
-
 /* footer */
 .main-footer {
   padding-top: 20px;
@@ -352,5 +352,48 @@ main,
 }
 
 .footer-phone a{
-  color: #7ec8da;
+    color: #7ec8da;
+}
+/*offer*/
+.offer
+{
+	min-height: 650px;
+	background: #f6f4f4 url("../img/Offer/trees.jpg") no-repeat;
+}
+.offer-item-content
+{
+    padding-top: 140px;	
+    padding-right: 290px;
+}
+.offer-title
+{
+    margin-top: 19.5px;
+
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 43px; 
+}
+.offer-text
+{
+    margin-top: 10px;
+
+	font-size: 16px;
+	line-height: 26px;
+	color: #949494;
+}
+.offer-form
+{
+	background: #ffffff;
+	padding: 17.5px 0 17.5px 21px; 
+}
+.offer-form-label
+{
+	font-size: 16px;
+	color: #949494;
+	letter-spacing: .02em;
+	line-height: 1.2;
+}
+.offer-form-input
+{
+	border: none;
 }

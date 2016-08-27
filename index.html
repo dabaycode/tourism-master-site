@@ -32,7 +32,7 @@
 <main class="container">
     <div class="row-item banner-main">
         <div class="row-item-container banner-main-container">
-            <div class="row-item-content banner-main-content">
+            <div class="banner-main-content">
                 <div class="top-line">
                     <div class="top-line-left"></div>
                     <div class="top-line-right"></div>
@@ -43,9 +43,9 @@
             </div>
         </div>
     </div>
-        <div class="row-item about-us">
+        <div class="about-us">
         <div class="row-item-container">
-        <div class="about-us-content">
+        <div class="row-item-content about-us-content">
         <img src="img/Blog/waves.svg" alt="">
             <h2>ABOUT US</h2>
             <p>
@@ -61,73 +61,77 @@
     </div>
     <div class="row-item our-journal">
         <div class="row-item-container our-journal-container">
-            <img src="img/Blog/waves.svg" alt="">
-            <h2 class="our-journal-title">Our Journal</h2>
-            <div class="features clearfix">
-                <div class="features-item features-img1"><img src="img/Journal/heart-icon.png" alt="" class="features-icon"></div>
-                <div class="features-item features-description">
-                    <b class="features-word">Love</b>
-                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h3>
-                    <p>
-                        You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves?
-                        Tell everyone about<br> 
-                        your experience and skills.
-                    </p>
-                </div>
-                <div class="features-item features-img2"><img src="img/Journal/water-icon.png" alt="" class="features-icon"></div>
-                <div class="features-item features-description">
-                    <b class="features-word">Tree</b>
-                    <h3>Lorem ipsum dolor sit <br>
-                    amet, consectetur adipisicing elit,</h3>
-                    <p>
-                        The way to a successful brand is hard,<br> 
-                        but always very interesting. Share the full<br> 
-                        story of your project – from the very first<br> 
-                        day until now.
-                    </p>
-
-                </div>
-                <div class="features-item features-img3"><img src="img/Journal/nature-icon.png" alt="" class="features-icon"></div>
-                <div class="features-item features-description">
-                    <b class="features-word">Water</b>
-                    <h3>Little pieces of<br> our proudness</h3>
-                    <p>
-                        What do you do better than your<br> 
-                        competitors? What are you proud of?<br>
-                        What details and advantages of your<br>
-                        product you want people to know about?
-                    </p>
-                </div>
-            </div>
+           <div class="row-item-content">
+           	 <img src="img/Blog/waves.svg" alt="">
+           	<h2 class="our-journal-title">Our Journal</h2>
+           	<div class="features clearfix">
+           	    <div class="features-item features-img1"><img src="img/Journal/heart-icon.png" alt="" class="features-icon"></div>
+           	    <div class="features-item features-description">
+           	        <b class="features-word">Love</b>
+           	        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</h3>
+           	        <p>
+           	            You know how to make best coffee in the universe? Or, maybe you’re very good in designing gloves?
+           	            Tell everyone about
+           	            your experience and skills.
+           	        </p>
+           	    </div>
+           	    <div class="features-item features-img2"><img src="img/Journal/water-icon.png" alt="" class="features-icon"></div>
+           	    <div class="features-item features-description">
+           	        <b class="features-word">Tree</b>
+           	        <h3>Lorem ipsum dolor sit 
+           	        amet, consectetur adipisicing elit,</h3>
+           	        <p>
+           	            The way to a successful brand is hard,
+           	            but always very interesting. Share the full
+           	            story of your project – from the very first
+           	            day until now.
+           	        </p>
+           	    </div>
+           	    <div class="features-item features-img3"><img src="img/Journal/nature-icon.png" alt="" class="features-icon"></div>
+           	    <div class="features-item features-description">
+           	        <b class="features-word">Water</b>
+           	        <h3>Little pieces ofour proudness</h3>
+           	        <p>
+           	            What do you do better than your 
+           	            competitors? What are you proud of?
+           	            What details and advantages of your
+           	            product you want people to know about?
+           	        </p>
+           	    </div>
+           	</div>
+           </div>
         </div>
     </div>
-    <div class="row-item">
+    <div class="row-item offer">
         <div class="row-item-container">
-            <h2>Do you wanna go?</h2>
-            <p>
+        <div class="row-item-content offer-item-content">
+        <img src="img/Blog/waves.svg" alt="">
+            <h2 class="offer-title">Do you wanna go?</h2>
+            <p class="offer-text">
                 Aliquam sed posuere urna, et gravida nisl. Praesent
                 interdum nisl libero, pretium egestas purus eleifend vitae.
                 Mauris suscipit vel lectus at luctus.
             </p>
-            <form action="#" method="post">
-                <label for="first_name">Your Name</label>
-                <input id="first_name" type="text">
-                <label for="phone">Your phone</label>
-                <input id="phone" type="text">
+            <form class="offer-form" action="#" method="post">
+                <label class="offer-form-label" for="first_name">Your name:</label>
+                <input id="first_name" class="offer-form-input" type="text">
+                <label for="phone" class="offer-form-label">Your phone:</label>
+                <input id="phone" class="offer-form-input" type="text">
                 <button type="submit">Order now</button>
-                <span class="notification">* Your data will not be transferred</span>
             </form>
+            <span class="notification">* Your data will not be transferred</span>
+        </div>
         </div>
     </div>
     <div class="row-item">
         <div class="row-item-container">
-            <h2>How we work</h2>
+            <div class="row-item-content">
             <ul class="step-list">
                 <li>
                     <div class="step-list-item">
                         <img src="#" alt="img">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            Lorem ipsum dolor sit amet, consectetur adipiisicing elit,
                             sed do eiusmod tempor incididunt
                         </p>
                     </div>
@@ -160,7 +164,8 @@
                     </div>
                 </li>
             </ul>
-        </div>
+            </div>
+      </div>
     </div>
     <div class="row-item">
         <div class="row-item-container">
