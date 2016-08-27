@@ -340,13 +340,17 @@ main,
 
 /* contacts form */
 .contact-row {
-  background-image: url("../img/Footer/footer-bg.png")
+  height: 1350px; /* temp */
+  background: url("../img/Footer/clients-bg.png") no-repeat;
+  background-position: 0 100%;
 }
 
 .contact-form {
   width: 43.9%;
   margin: 0 auto;
   margin-bottom: 160px;
+  margin-top: 395px; /* !!! temp. only to see how the form looks with background */
+  border-radius: 11px;
   overflow: auto;
   background: url("../img/Footer/contacts-bg.png") no-repeat;
 }
@@ -400,9 +404,11 @@ main,
 
 /* footer */
 .main-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 12px;
-  background-color: #406b73;
   font-size: 1.125em;
   font-weight: bold;
   color: #78aaba;
