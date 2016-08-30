@@ -19,6 +19,10 @@ h4 {
     margin: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 main,
 .row-item {
     overflow: hidden;
@@ -47,7 +51,13 @@ main,
 .row-item-content h1,
 .row-item-content h2 {
     text-transform: uppercase;
+
 }
+
+.row-item-content h2 {
+  letter-spacing: 0.0625em;
+}
+
 
 .main-header {
     background-color: rgba(255,255,255,0.2);
@@ -201,6 +211,10 @@ main,
   position: relative;
 }
 
+.about-us-title {
+  text-align: left;
+}
+
 .about-us-content img {
     margin-bottom: 32px;
 }
@@ -348,8 +362,7 @@ main,
 .contact-form {
   width: 43.9%;
   margin: 0 auto;
-  margin-bottom: 160px;
-  margin-top: 395px; /* !!! temp. only to see how the form looks with background */
+  margin-bottom: 248px;
   border-radius: 11px;
   overflow: auto;
   background: url("../img/Footer/contacts-bg.png") no-repeat;
@@ -365,7 +378,7 @@ main,
 }
 
 .contact-form-title {
-    margin-top: 40px;
+    margin-top: 30px;
     color: #36aeea;
     font-size: 2.25em;
 }
@@ -374,7 +387,7 @@ main,
 .contact-form button {
   box-sizing: content-box; /* button is border-box by default */
   display: block;
-  width: 76%;
+  width: 84%;
   padding: 0 2%;
   margin: 20px auto;
   border-radius: 6px;
@@ -412,6 +425,10 @@ main,
   font-size: 1.125em;
   font-weight: bold;
   color: #78aaba;
+}
+
+.footer-content {
+  padding: 0 1%;
 }
 
 .footer-layout-column {
@@ -458,6 +475,7 @@ main,
   margin-top: 19.5px;
 	font-weight: bold;
 	font-size: 20px;
+  text-align: left;
 	line-height: 43px;
 }
 
@@ -486,4 +504,65 @@ main,
 
 .offer-form-input:focus {
   outline: none;
-};
+}
+
+/* clients */
+.comments {
+  margin-top: 83px;
+  margin-bottom: 140px;
+}
+
+.comment::before {
+  content: "";
+  display: block;
+  height: 22px;
+  background: url("../img/Footer/quotation-mark.png") no-repeat;
+}
+
+.comment-text {
+  margin-bottom: 23px;
+  margin-top: 10px;
+  font-size: 1.125em;
+  line-height: 1.875em;
+}
+
+.comment-footer * {
+  vertical-align: middle;
+}
+
+.comment-image {
+  margin-right: 2.5%;
+  cursor: pointer;
+}
+
+.comment-author,
+.comment-author-speciality {
+  color: #36aeea;
+}
+
+.comment-author {
+  font-weight: bold;
+}
+
+.layout-column {
+  width: 45%;
+  padding: 0 2.5%;
+  float: left;
+}
+
+.clients-content {
+  padding-top: 71px;
+}
+
+.clients-content-title {
+  font-size: 2em;
+}
+
+.clients-content-title::before {
+ content: "";
+ display: block;
+ margin-bottom: 20px;
+ height: 7px;
+ text-align: center;
+ background: url("../img/Blog/waves.svg") no-repeat 50%;
+}
