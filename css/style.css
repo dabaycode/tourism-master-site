@@ -19,14 +19,21 @@ h4 {
     margin: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 main,
 .row-item {
     overflow: hidden;
 }
+
+/*
 .row-item-content
 {
 	padding: 0 15px;
 }
+*/
 
 .row-item-container {
     margin: 0 auto;
@@ -44,12 +51,17 @@ main,
 .row-item-content h1,
 .row-item-content h2 {
     text-transform: uppercase;
+
 }
+
+.row-item-content h2 {
+  letter-spacing: 0.0625em;
+}
+
 
 .main-header {
     background-color: rgba(255,255,255,0.2);
 }
-
 
 .logo,
 .contact,
@@ -78,7 +90,6 @@ main,
     width: 60%;
     margin: 18px 0;
     padding: 12px 1%;
-
     font-weight: bold;
 }
 
@@ -186,6 +197,7 @@ main,
 .line-brand-item img {
   vertical-align: bottom;
 }
+
 /*about-us*/
 .about-us {
   min-height: 667px;
@@ -198,8 +210,12 @@ main,
   padding-top: 204px;
   position: relative;
 }
-.about-us-content img
-{
+
+.about-us-title {
+  text-align: left;
+}
+
+.about-us-content img {
     margin-bottom: 32px;
 }
 
@@ -207,6 +223,7 @@ main,
 	color: #949494;
 	line-height: 26px;
 }
+
 .about-us-item1 {
  position: absolute;
  width: 806px;
@@ -222,6 +239,7 @@ main,
  top: 279px;
  left: 459px;
 }
+
 .btn-read {
   width: 36.11%;
   border-radius: 5px;
@@ -239,75 +257,94 @@ main,
   background-color:  #f6f4f4;
 	color: #36aeea;
 }
+
 /*our-journal*/
-.our-journal
-{
+.our-journal {
     min-height: 1070px;
 }
-.our-journal-container
-{
+
+.our-journal-container {
     text-align: center;
     padding-top: 61px;
 }
-.our-journal-title
-{
+.our-journal-title {
 	font-size: 30px;
 	line-height: 42px;
 	text-transform: uppercase;
 	margin-top: 20px;
 }
-.features
-{
+
+.features {
 	margin-top: 62px;
 	box-shadow: 0 0 21px rgba(6,6,6,0.13);
 }
-.features-item
-{
+
+.features-item {
 	width: 380px;
 	height: 380px;
 	float: left;
 }
-.features-img1
-{
+
+.features-img1 {
 	background-image: url("../img/Journal/item1.jpg");
 }
-.features-img2
-{
+
+.features-img2 {
 	background-image: url("../img/Journal/item2.jpg");
 }
-.features-img3
-{
+
+.features-img3 {
 	background-image: url("../img/Journal/item3.jpg");
 }
-.features-icon
-{
+
+.features-icon {
     position: relative;
     top: 39.47%;
 }
-.features-word
-{
+
+/* only for fun scetion */
+@keyframes test {
+  from {width: 81px; height: 81px;}
+  to {width: 90px; height: 90px;}
+}
+
+.features-img1:hover .features-icon {
+  animation-name: test;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/* fun section end */
+
+.features-word {
     font-size: 11px;
     line-height: 12.54px;
     color: #16b5ef;
     text-transform: uppercase;
     letter-spacing: .15em;
 }
-.features-description
-{
+
+.features-description {
     padding-top: 36px;
     height: 343px;
     width: 322px;
     padding-right: 29px;
     padding-left: 29px;
 }
-.features-description h3
-{
+
+.features-description h3 {
     text-transform: uppercase;
     font-size: 16.15px;
     line-height: 24.23px;
     letter-spacing: .15em;
     margin-top: 43px;
 }
+
+.about-us-content p {
+	color: #949494;
+	line-height: 26px;
+}
+
 .features-description p
 {
     font-size: 14px;
@@ -315,14 +352,83 @@ main,
     color: #808080;
 }
 
+/* contacts form */
+.contact-row {
+  height: 1350px; /* temp */
+  background: url("../img/Footer/clients-bg.png") no-repeat;
+  background-position: 0 100%;
+}
+
+.contact-form {
+  width: 43.9%;
+  margin: 0 auto;
+  margin-bottom: 248px;
+  border-radius: 11px;
+  overflow: auto;
+  background: url("../img/Footer/contacts-bg.png") no-repeat;
+}
+
+.contact-form-title,
+.contact-form p {
+  text-align: center;
+}
+
+.contact-form p {
+  margin: 0 0 34px 0;
+}
+
+.contact-form-title {
+    margin-top: 30px;
+    color: #36aeea;
+    font-size: 2.25em;
+}
+
+.contact-form input,
+.contact-form button {
+  box-sizing: content-box; /* button is border-box by default */
+  display: block;
+  width: 84%;
+  padding: 0 2%;
+  margin: 20px auto;
+  border-radius: 6px;
+  border: 0;
+}
+
+.contact-form input {
+  height: 60px;
+  font-size: 1.125em;
+}
+
+.contact-form button {
+  height: 70px;
+  margin-bottom: 50px;
+  background-color: #36aeea;
+  color: white;
+  font-size: 1em; /* browser ovveride style in body. Don't know why */
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+    box-shadow: 0 0 13px 0 black;
+}
+
+
 /* footer */
 .main-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 12px;
-  background-color: #406b73;
   font-size: 1.125em;
   font-weight: bold;
   color: #78aaba;
+}
+
+.footer-content {
+  padding: 0 1%;
 }
 
 .footer-layout-column {
@@ -354,49 +460,48 @@ main,
 .footer-phone a{
     color: #7ec8da;
 }
+
 /*offer*/
-.offer
-{
+.offer {
 	min-height: 650px;
 	background: #f6f4f4 url("../img/Offer/trees.jpg") no-repeat;
 }
-.offer-item-content
-{
-    padding-top: 140px;	
-    padding-right: 290px;
-}
-.offer-title
-{
-    margin-top: 19.5px;
 
+.offer-item-content {
+  padding-top: 140px;
+  padding-right: 290px;
+}
+.offer-title {
+  margin-top: 19.5px;
 	font-weight: bold;
 	font-size: 20px;
-	line-height: 43px; 
+  text-align: left;
+	line-height: 43px;
 }
-.offer-text
-{
-    margin-top: 10px;
 
+.offer-text {
+  margin-top: 10px;
 	font-size: 16px;
 	line-height: 26px;
 	color: #949494;
 }
+
 .offer-form
 {
 	width: 852px;
 	background: #ffffff; 
 	border-radius: 5px;
 }
-.offer-form-label
-{
+
+.offer-form-label {
 	font-size: 16px;
 	color: #949494;
 	letter-spacing: .02em;
 	line-height: 1.2;
 	padding-left: 20px;
 }
-.offer-form-input
-{
+
+.offer-form-input {
 	border: none;
 	height: 35px;
 }
@@ -432,3 +537,69 @@ main,
   background-color:  #f6f4f4;  
   color: #36aeea;
 }
+
+.offer-form-input:focus {
+  outline: none;
+}
+
+/* clients */
+.comments {
+  margin-top: 83px;
+  margin-bottom: 140px;
+}
+
+.comment::before {
+  content: "";
+  display: block;
+  height: 22px;
+  background: url("../img/Footer/quotation-mark.png") no-repeat;
+}
+
+.comment-text {
+  margin-bottom: 23px;
+  margin-top: 10px;
+  font-size: 1.125em;
+  line-height: 1.875em;
+}
+
+.comment-footer * {
+  vertical-align: middle;
+}
+
+.comment-image {
+  margin-right: 2.5%;
+  cursor: pointer;
+}
+
+.comment-author,
+.comment-author-speciality {
+  color: #36aeea;
+}
+
+.comment-author {
+  font-weight: bold;
+}
+
+.layout-column {
+  width: 45%;
+  padding: 0 2.5%;
+  float: left;
+}
+
+.clients-content {
+  padding-top: 71px;
+}
+
+.clients-content-title {
+  font-size: 2em;
+}
+
+.clients-content-title::before {
+ content: "";
+ display: block;
+ margin-bottom: 20px;
+ height: 7px;
+ text-align: center;
+ background: url("../img/Blog/waves.svg") no-repeat 50%;
+}
+
